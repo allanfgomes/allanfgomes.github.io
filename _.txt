@@ -1,0 +1,15 @@
+cd E:\_Cursos\GIT\GIT-GEEK\allanfgomes.github.io
+
+** criar um repositorio no github allanfgomes.github.io
+
+echo # allanfgomes.github.io >> README.md
+git init
+git config user.name "allanfgomes"
+git config user.email "allanfgomes@globo.com"
+git add . ***TROQUEI*** git add README.md  
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/allanfgomes/allanfgomes.github.io.git
+git remote -v
+git push -u origin main
+
